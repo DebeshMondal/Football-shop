@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Debesh Mondal" />
+    <meta
+      name="description"
+      content="Contact Information for The Football Shop"
+    />
+    <title>Contact Us -- TFS</title>
+    <link rel="icon" href="football.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">Home </a>
+          </li>
+          <li>
+            <a href="/#About"
+              >About <abbr title="The Football Shop">TFS</abbr></a
+            >
+          </li>
+          <li>
+            <a href="/#items">Our Items </a>
+          </li>
+          <li>
+            <a href="hours.html">Store Hours </a>
+          </li>
+        </ul>
+      </nav>
+
+      <figure>
+        <img
+          src="contact.jpg"
+          alt="Dressing Room"
+          title="Image of Dressing Room!"
+          width="400"
+        />
+        <figcaption>The Dressing Room!!</figcaption>
+      </figure>
+    </header>
+
+    <hr />
+    <main>
+      <!-- our content -->
+
+      <section>
+        <h2>Get in Touch with us with this form!</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send us a message</legend>
+            <p>
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your name"
+                required
+              />
+              <br />
+            </p>
+            <p>
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+              <br />
+            </p>
+
+            <p>
+              <label for="message">Your Message</label>
+              <br />
+              <textarea
+                name="message"
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Type  your message here."
+                required
+              ></textarea>
+            </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+      <section>
+        <h2>Our Location</h2>
+        <address>
+          Ward-96 Kolkata Maidan
+          <br>
+          West Bengal, India
+          <br><br>
+          phone : <a href="tel:+949494949494">9494949494</a>
+        </address>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <p>Copyright &copy; The Football Shop</p>
+    </footer>
+  </body>
+</html>
